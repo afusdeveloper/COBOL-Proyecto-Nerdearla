@@ -1,5 +1,5 @@
        IDENTIFICATION DIVISION.
-       PROGRAM-ID.                            EJERCICIO2.
+       PROGRAM-ID.                            EJERCICIO3.
        AUTHOR.                                AYMARA M FUSARO.
 
        DATA DIVISION.
