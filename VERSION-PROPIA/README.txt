@@ -1,0 +1,1 @@
+Es este repositorio voy a escribir unas versiones propiar de los proyectos vistos en el evento
