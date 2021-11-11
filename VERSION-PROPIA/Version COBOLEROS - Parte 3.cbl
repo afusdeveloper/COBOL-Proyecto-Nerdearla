@@ -100,6 +100,7 @@
        00-CONTROL-END. EXIT.
 
        10-INICIO.
+            DISPLAY WSC-GUIONES.
             DISPLAY WSC-TIT-1.
             DISPLAY WSC-GUIONES.
             DISPLAY WSC-COLUMNAS.
