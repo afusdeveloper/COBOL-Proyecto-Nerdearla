@@ -97,7 +97,7 @@
             PERFORM 10-INICIO.
             PERFORM 20-PROCESO.
             STOP RUN.
-       00-CONTROL-END. EXIT.
+       00-END. EXIT.
 
        10-INICIO.
             DISPLAY WSC-GUIONES.
@@ -106,7 +106,7 @@
             DISPLAY WSC-COLUMNAS.
             DISPLAY WSC-GUIONES2.
             INITIALIZE WSV-POSTULANTE-AUX.
-       10-INICIO-END. EXIT.
+       10-END. EXIT.
 
        20-PROCESO.
             MOVE WSV-POSTU1 TO WSV-POSTULANTE-AUX.
@@ -120,7 +120,7 @@
             MOVE WSV-POSTU3 TO WSV-POSTULANTE-AUX.
             PERFORM 25-EVALUAR.
             PERFORM 30-CALCULAR-SUELDO.
-       20-PROCESO-END. EXIT.
+       20-END. EXIT.
 
        25-EVALUAR.
             EVALUATE TRUE
@@ -131,7 +131,7 @@
             WHEN OTHER 
                 MOVE WSC-SUELDO-SENIOR TO WSV-SUELDO-AUX
             END-EVALUATE.
-       25-EVALUAR-END. EXIT.
+       25-END. EXIT.
 
        30-CALCULAR-SUELDO.
            MULTIPLY 12 BY WSV-SUELDO-AUX 
@@ -159,7 +159,7 @@
             END-EVALUATE.
 
             INITIALIZE WSV-POSTULANTE-AUX.
-       30-CALCULAR-SUELDO-END. EXIT.
+       30-END. EXIT.
        
        35-ESCRIBIR-JUNIOR.
             DISPLAY ' '
