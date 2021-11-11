@@ -146,7 +146,7 @@
                 WHEN 4
                 WHEN 5
                     COMPUTE WSV-BONO-AUX = WSV-SUELDO-AUX * 2
-                    PERFORM 40-ESCRIBIR-SEMISR THRU 40-ESCRIBIR-SEMISR
+                    PERFORM 40-ESCRIBIR-SEMISR THRU 40-END
                 WHEN 6
                     COMPUTE WSV-BONO-AUX = WSV-SUELDO-AUX * 2.5
                     PERFORM 45-ESCRIBIR-SENIOR THRU 45-END
