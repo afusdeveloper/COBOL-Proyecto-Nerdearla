@@ -102,11 +102,7 @@
        00-END. EXIT.
       * 
        10-INICIO.
-            DISPLAY WSC-GUIONES.
-            DISPLAY WSC-TIT-1.
-            DISPLAY WSC-GUIONES.
-            DISPLAY WSC-COLUMNAS.
-            DISPLAY WSC-GUIONES2.
+            PERFORM 50-TITULOS THRU 50-END.
             INITIALIZE WSV-POSTULANTE-AUX.
        10-END. EXIT.
       *
@@ -187,3 +183,11 @@
                     WSV-SUELDO-ANUAL-AUX    '          '
                     WSV-BONO-AUX. 
        45-END. EXIT.
+      *
+       50-TITULOS.
+            DISPLAY WSC-GUIONES.
+            DISPLAY WSC-TIT-1.
+            DISPLAY WSC-GUIONES.
+            DISPLAY WSC-COLUMNAS.
+            DISPLAY WSC-GUIONES2.
+       50-END. EXIT.
