@@ -19,10 +19,10 @@
                  10 WSC-SUELDO-JUNIOR         PIC 9(06) VALUE 100000.
       *
              05 WSC-TIT-1.
-                 10 FILLER                    PIC X(32) VALUE SPACES.
-                 10 WSC-ENCABEZADO            PIC X(16) VALUE 
-                                              'REPORTE DE BECAS'.
                  10 FILLER                    PIC X(31) VALUE SPACES.
+                 10 WSC-ENCABEZADO            PIC X(18) VALUE 
+                                              'REPORTE DE SUELDOS'.
+                 10 FILLER                    PIC X(30) VALUE SPACES.
       *
              05 WSC-GUIONES.
                  10 FILLER                    PIC X(80) VALUE ALL '-'.
